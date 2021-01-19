@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../../Styles/Dashboard/DataTile/DataTile.css';
+import '../../Styles/Dashboard/DataTile.css';
 
 function DataTile({amount, percent, title, isGreen, Icon}) {
     return (

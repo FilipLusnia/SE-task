@@ -1,6 +1,9 @@
 import React from 'react';
 import '../../Styles/Dashboard/Dashboard.css';
-import DataTile from './DataTile/DataTile';
+import DataTile from './DataTile';
+import Production from './Production';
+import Map from './Map';
+import Summary from './Summary';
 
 import {ReactComponent as ServerIcon} from '../../Resources/server-storage.svg';
 import {ReactComponent as UserIcon} from '../../Resources/user.svg';
@@ -19,7 +22,11 @@ function Dashboard() {
                     <DataTile amount='12' percent='-5,9%' title='OPEN COMPLAINTS' isGreen={false} Icon={MoreIcon}/>
                 </section>
                 <section className="graphic_tiles_section">
-
+                    <div className="graphic_tiles_left_section">
+                        <Production/>
+                        <Summary/>
+                    </div>
+                    <Map/>
                 </section>
             </div>
         </div>
