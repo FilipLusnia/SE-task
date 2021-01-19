@@ -11,7 +11,7 @@ function Dashboard() {
     return (
         <div className="mockup_container">
             <div className="dashboard_container">
-                <h1 className="dashboard_title">Enterprise Shiny Dahboards</h1>
+                <h1 className="dashboard_title">Enterprise Shiny Dashboards</h1>
                 <section className="data_tiles_section">
                     <DataTile amount='$ 2 674 862' percent='+4,5%' title='TOTAL PROFIT' isGreen={true} Icon={ServerIcon}/>
                     <DataTile amount='657' percent='+8,5%' title='ACTIVE USERS' isGreen={true} Icon={UserIcon}/>
