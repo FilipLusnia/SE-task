@@ -4,11 +4,6 @@ import '../../Styles/Dashboard/Map.css';
 
 function Map() {
   const geoUrl = "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";
-  
-  const style = {
-      default: {fill: "#d6d6da", outline: 'none'},
-      hover: {fill: "#fffe5a", outline: 'none'}
-  }
 
   return (
     <div className="map_tile_container">
@@ -21,7 +16,7 @@ function Map() {
             <ZoomableGroup zoom={2}>
                 <Geographies geography={geoUrl}>
                   {({ geographies }) => geographies.map(geo => (
-                      <Geography key={geo.rsmKey} geography={geo} style={style}/>
+                      <Geography key={geo.rsmKey} geography={geo} className="map_country"/>
                   ))}
                 </Geographies>
             </ZoomableGroup>

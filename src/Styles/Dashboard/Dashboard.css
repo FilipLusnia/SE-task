@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
 }
+
 .dashboard_container{
     width: 95vw;
     padding: 30px;
@@ -15,21 +16,25 @@
     border-radius: 5px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .dashboard_title{
     font-weight: 700;
     margin-bottom: 30px;
 }
+
 .data_tiles_section{
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+
 .graphic_tiles_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
     margin-top: 15px;
 }
+
 .graphic_tiles_left_section{
     display: grid;
     grid-template-columns: 1fr;
