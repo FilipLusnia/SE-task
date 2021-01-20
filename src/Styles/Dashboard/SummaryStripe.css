@@ -1,0 +1,54 @@
+.summary_stripe_container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 3px 20px;
+    box-sizing: border-box;
+}
+
+.summary_stripe{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.summary_stripe_gray{
+    background-color: #cecece;
+    height: 13px;
+    border-radius: 2px 0 0 2px;
+}
+
+.summary_stripe_color{
+    border-radius: 0 2px 2px 0;
+    height: 13px;
+}
+
+.summary_stripe_percent{
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.summary_roll_icon{
+    height: 10px;
+    width: auto;
+    cursor: pointer;
+    fill: #636363;
+}
+
+.summary_stripe_container:first-child .summary_stripe_color{
+    background-color: dodgerblue;
+    width: 3%;
+}
+.summary_stripe_container:nth-child(2) .summary_stripe_color{
+    background-color: yellowgreen;
+    width: 12%;
+}
+.summary_stripe_container:nth-child(3) .summary_stripe_color{
+    background-color: orange;
+    width: 7%;
+}
+.summary_stripe_container:last-child .summary_stripe_color{
+    background-color: tomato;
+    width: 2%;
+}

@@ -9,6 +9,8 @@ import {ReactComponent as ServerIcon} from '../../Resources/server-storage.svg';
 import {ReactComponent as UserIcon} from '../../Resources/user.svg';
 import {ReactComponent as SuppliesIcon} from '../../Resources/supplies.svg';
 import {ReactComponent as MoreIcon} from '../../Resources/more.svg';
+import {ReactComponent as DownloadIcon} from '../../Resources/download.svg';
+import {ReactComponent as PrinterIcon} from '../../Resources/printer.svg';
 
 function Dashboard() {
     return (
@@ -27,6 +29,37 @@ function Dashboard() {
                         <Summary/>
                     </div>
                     <Map/>
+                </section>
+                <section className="dashboard_bottom">
+                    <label className="dashboard_range_label">
+                        RANGE:
+                        <select className="dashboard_range_select">
+                            <option value="month">ONE MONTH</option>
+                            <option value="day">ONE DAY</option>
+                            <option value="year">ONE YEAR</option>
+                        </select>
+                    </label>
+                    <div className="dashboard_bottom_right">
+                        <select className="dashboard_year_select">
+                            <option value="2020">June 2020</option>
+                            <option value="2019">June 2019</option>
+                            <option value="2018">June 2018</option>
+                        </select>
+                        <div className="dashboard_buttons_group">
+                            <div className="dashboard_button">
+                                <p>EXPORT</p>
+                                <div className="dashboard_icon_container">
+                                    <DownloadIcon className="dashboard_options_icon"/>
+                                </div>
+                            </div>
+                            <div className="dashboard_button">
+                                <p>PRINT</p>
+                                <div className="dashboard_icon_container">
+                                    <PrinterIcon className="dashboard_options_icon"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
             </div>
         </div>
