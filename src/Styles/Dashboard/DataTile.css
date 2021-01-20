@@ -79,3 +79,13 @@
 .data_tile_container:last-child .data_tile_icon_container{
     background-color: tomato;
 }
+
+
+@media(max-width: 800px) {
+    .data_tile_container:first-child{
+        margin-left: 5px;
+    }
+    .data_tile_container:last-child{
+        margin-right: 5px;
+    }
+}
