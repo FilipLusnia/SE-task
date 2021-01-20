@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SE-task/static/css/main.fce89f7e.chunk.css",
+    "main.css": "/SE-task/static/css/main.2e2facd3.chunk.css",
     "main.js": "/SE-task/static/js/main.42aa9489.chunk.js",
     "main.js.map": "/SE-task/static/js/main.42aa9489.chunk.js.map",
     "runtime-main.js": "/SE-task/static/js/runtime-main.daf722ec.js",
@@ -10,7 +10,7 @@
     "static/js/3.7258ff4e.chunk.js": "/SE-task/static/js/3.7258ff4e.chunk.js",
     "static/js/3.7258ff4e.chunk.js.map": "/SE-task/static/js/3.7258ff4e.chunk.js.map",
     "index.html": "/SE-task/index.html",
-    "static/css/main.fce89f7e.chunk.css.map": "/SE-task/static/css/main.fce89f7e.chunk.css.map",
+    "static/css/main.2e2facd3.chunk.css.map": "/SE-task/static/css/main.2e2facd3.chunk.css.map",
     "static/js/2.4edbff90.chunk.js.LICENSE.txt": "/SE-task/static/js/2.4edbff90.chunk.js.LICENSE.txt",
     "static/media/down-arrow.e3ea220c.svg": "/SE-task/static/media/down-arrow.e3ea220c.svg",
     "static/media/download.4d2d3686.svg": "/SE-task/static/media/download.4d2d3686.svg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.daf722ec.js",
     "static/js/2.4edbff90.chunk.js",
-    "static/css/main.fce89f7e.chunk.css",
+    "static/css/main.2e2facd3.chunk.css",
     "static/js/main.42aa9489.chunk.js"
   ]
 }
