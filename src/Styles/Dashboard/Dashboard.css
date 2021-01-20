@@ -191,11 +191,16 @@
 @media(max-width: 500px) {
 
     .dashboard_container{
-        padding: 30px 30px 80px;
+        padding: 30px;
     }
 
     .data_tiles_section{
         grid-template-columns: 1fr;
+    }
+
+    .dashboard_bottom{
+        height: auto;
+        margin-top: 0;
     }
 
     .dashboard_range_select{

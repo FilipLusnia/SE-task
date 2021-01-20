@@ -56,9 +56,6 @@
 }
 
 @media(max-width: 500px){
-    .map_tile_container{
-        margin-bottom: 30px;
-    }
 
     .map_hint{
         font-size: 60%;
