@@ -55,13 +55,13 @@ function Production() {
           <div className="production_tile_button">
             <p>EXPORT</p>
             <div className="production_tile_icon_container">
-              <DownloadIcon className="production_tile_options_icon"/>
+              <DownloadIcon className="production_tile_button_icon"/>
             </div>
           </div>
           <div className="production_tile_button">
             <p>PRINT</p>
             <div className="production_tile_icon_container">
-              <PrinterIcon className="production_tile_options_icon"/>
+              <PrinterIcon className="production_tile_button_icon"/>
             </div>
           </div>
         </div>
