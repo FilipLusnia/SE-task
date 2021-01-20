@@ -10,6 +10,12 @@
     display: flex;
     align-items: center;
     width: 100%;
+    animation: revealStripe 2s;
+}
+@keyframes revealStripe{
+    0% {opacity: 0; transform: rotateX(90deg);}
+    50% {opacity: 0; transform: rotateX(90deg);}
+    100% {opacity: 1; transform: rotateX(0);}
 }
 
 .summary_stripe_gray{
@@ -39,16 +45,77 @@
 .summary_stripe_container:first-child .summary_stripe_color{
     background-color: dodgerblue;
     width: 3%;
+    animation: stretchFirstColorStripe 3s;
+}
+@keyframes stretchFirstColorStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 3%;}
 }
 .summary_stripe_container:nth-child(2) .summary_stripe_color{
     background-color: yellowgreen;
     width: 12%;
+    animation: stretchSecondColorStripe 3s;
+}
+@keyframes stretchSecondColorStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 12%;}
 }
 .summary_stripe_container:nth-child(3) .summary_stripe_color{
     background-color: orange;
     width: 7%;
+    animation: stretchThirdColorStripe 3s;
+}
+@keyframes stretchThirdColorStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 7%;}
 }
 .summary_stripe_container:last-child .summary_stripe_color{
     background-color: tomato;
     width: 2%;
+    animation: stretchFourthColorStripe 3s;
+}
+@keyframes stretchFourthColorStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 2%;}
+}
+
+.summary_stripe_container:first-child .summary_stripe_gray{
+    width: 70%;
+    animation: stretchFirstGrayStripe 2.5s;
+}
+@keyframes stretchFirstGrayStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 70%;}
+}
+.summary_stripe_container:nth-child(2) .summary_stripe_gray{
+    width: 50%;
+    animation: stretchSecondGrayStripe 2.5s;
+}
+@keyframes stretchSecondGrayStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 50%;}
+}
+.summary_stripe_container:nth-child(3) .summary_stripe_gray{
+    width: 75%;
+    animation: stretchThirdGrayStripe 2.5s;
+}
+@keyframes stretchThirdGrayStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 75%;}
+}
+.summary_stripe_container:last-child .summary_stripe_gray{
+    width: 2%;
+    animation: stretchFourthGrayStripe 2.5s;
+}
+@keyframes stretchFourthGrayStripe{
+    0% {width: 0%;}
+    50% {width: 0%;}
+    100% {width: 2%;}
 }

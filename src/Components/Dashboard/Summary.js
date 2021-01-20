@@ -18,10 +18,10 @@ function Summary() {
           </div>
         </div>    
         <div className="summary_data_container">
-          <SummaryStripe baseWidth={'70%'} percent={'8%'}/>
-          <SummaryStripe baseWidth={'50%'} percent={'15%'}/>
-          <SummaryStripe baseWidth={'75%'} percent={'9%'}/>
-          <SummaryStripe baseWidth={'2%'} percent={'-17%'}/>
+          <SummaryStripe percent={'8%'}/>
+          <SummaryStripe percent={'15%'}/>
+          <SummaryStripe percent={'9%'}/>
+          <SummaryStripe percent={'-17%'}/>
         </div>    
       </div>
     );
